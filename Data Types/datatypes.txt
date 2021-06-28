@@ -1,0 +1,64 @@
+Data types in C Language
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Data types specify how we enter data into our programs and what type of data we enter. 
+C language has some predefined set of data types to handle various kinds of data that we can use in our program. 
+These datatypes have different storage capacities.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+C language supports 2 different type of data types:
+----------------------------------------------------
+Primary data types:
+These are fundamental data types in C namely integer(int), floating point(float), character(char) and void.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Derived data types:
+Derived data types are nothing but primary datatypes but a little twisted or grouped together like array, stucture, union and pointers.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Data type determines the type of data a variable will hold. 
+If a variable x is declared as int. it means x can hold only integer values. 
+Every variable which is used in the program must be declared as what data-type it is.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Primary data types in c :
+------------------------
+Integer type
+------------
+Integers are used to store whole numbers.
+
+Size and range of Integer type on 16-bit machine:
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Type	                             Size(bytes)	              Range
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+int or signed int                      2	            -32,768 to 32767
+unsigned int	                         2	             0 to 65535
+short int or signed short int          1	            -128 to 127
+unsigned short int	                   1	             0 to 255
+long int or signed long int	           4	            -2,147,483,648 to 2,147,483,647
+unsigned long int	                     4	             0 to 4,294,967,295
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Floating point type :
+--------------------
+Floating types are used to store real numbers.
+
+Size and range of Integer type on 16-bit machine
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Type	                                      Size(bytes)	            Range
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Float	                                        4              	3.4E-38 to 3.4E+38
+double	                                      8	              1.7E-308 to 1.7E+308
+long double	                                 10	              3.4E-4932 to 1.1E+4932
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Character type :
+---------------[
+Character types are used to store characters value.
+
+Size and range of Integer type on 16-bit machine
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Type	                           Size(bytes)	                                   Range
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+char or signed char             	1	                                       -128 to 127
+unsigned char	                    1	                                        0 to 255
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+void type :
+----------
+void type means no value. This is usually used to specify the type of functions which returns nothing. We will get acquainted to this datatype as we start learning more advanced topics in C language, like functions, pointers etc.
