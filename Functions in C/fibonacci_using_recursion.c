@@ -20,6 +20,7 @@ fib(3) = fib(2) + fib(1) = 1 + 1 = 2
 fib(n) = fib(n-2) + fib(n-1)
 */
 #include <stdio.h>
+int fib(i);
 void main() {
 	int n, i;
 	printf("Enter value of n : ");
