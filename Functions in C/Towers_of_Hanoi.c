@@ -14,6 +14,14 @@ Move disk - 1 from pole B to A
 Move disk - 2 from pole B to C
 Move disk - 1 from pole A to C
 */
+#include <stdio.h>
+void hanoi(int num,char x,char y,char z);
+void main() {
+	int n;
+	printf("Enter number of disks : ");
+	scanf("%d", &n);
+	hanoi(n, 'A', 'B', 'C');
+}
 void hanoi(int num,char x,char y,char z)
 {
 	if (num==1)
