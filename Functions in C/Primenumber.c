@@ -11,6 +11,7 @@ Similarly, if the input is given as 5 then the program should print the result a
 The given number 5 is a prime number
 */
 #include <stdio.h>
+int prime(int num);
 void main() {
 	int number;
 	printf("Enter a number : ");
