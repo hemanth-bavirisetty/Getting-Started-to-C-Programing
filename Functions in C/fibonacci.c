@@ -8,6 +8,14 @@ Enter the maximum limit to generate the Fibonacci series : 15
 then the program should print the result as:
 The Fibonacci series is : 0 1 1 2 3 5 8 13
 */
+#include <stdio.h>
+int fibonacci(int number);
+void main() {
+	int number;
+	printf("Enter the maximum limit to generate the Fibonacci series : ");
+	scanf("%d", &number);
+	fibonacci(number);
+}
 int fibonacci(int number)
 {
 int a=0,b=1,c;
