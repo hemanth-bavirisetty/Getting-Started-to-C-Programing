@@ -27,11 +27,15 @@ multiplication·of·two·values·=·780
 */
 
 #include "stdio.h"
+int addition();
+int subtraction();
+int multiplication();
+int division();
 int a,b;
 void main()
 {
 	int c;
-	printf("Enter two values : ",a,b);
+	printf("Enter two values : ");
 	scanf("%d%d",&a,&b);
 	printf("The menu driven is:\n");
 	printf("1.Additon\n2.Subtraction\n3.Multiplication\n4.Division\n");
